@@ -34,8 +34,8 @@ export default function Home() {
             <p className='text-2xl py-5 leading-8 text-white mx-w-xl'>I love to make things and solve complex problems. I have over two years of development experience.</p>      
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 md:text-5xl'>
-            <a href=""><AiFillLinkedin fill='coral' /></a>
-            <a href=""><AiFillGithub fill='coral' /></a>
+            <a href="https://www.linkedin.com/in/raiyankhalil/"><AiFillLinkedin fill='coral' /></a>
+            <a href="https://github.com/RaiyanKhalil"><AiFillGithub fill='coral' /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-4 overflow-hidden'>
             <Image alt='Raiyan Shuvo' src={raiyan} layout="fill" objectFit='cover'/>
@@ -50,6 +50,8 @@ export default function Home() {
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>JQuery</div>
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>Javascript</div>
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>Typescript</div>
+            <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>Tailwind</div>
+            <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>Bootstrap</div>
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>ReactJS</div>
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>React-Native</div>
             <div className='bg-myCoral text-gray-800 px-4 py-2 rounded-md'>Python</div>
