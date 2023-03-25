@@ -38,7 +38,7 @@ export default function Home() {
             <a href=""><AiFillGithub fill='coral' /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-4 overflow-hidden'>
-            <Image src={raiyan} layout="fill" objectFit='cover'/>
+            <Image alt='Raiyan Shuvo' src={raiyan} layout="fill" objectFit='cover'/>
           </div>
         </section>
 {/* className='list-disc' */}
