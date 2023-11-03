@@ -32,7 +32,7 @@ export default function Home() {
             <h2 className='text-4xl py-2 text-myCoral font-medium md:text-6xl'>Raiyan Khalil Shuvo</h2>
             <h3 className='text-3xl py-2 md:text-3xl'>Full Stack JavaScript Developer</h3>
             {/* <p className='text-2xl py-5 leading-8 text-white mx-w-xl'>Postgradute and Full-Stack JavaScript Engineer with over two years of professional development experience.</p>       */}
-            <p className='text-2xl py-5 leading-8 text-white mx-w-xl'>I am Raiyan Khalil Shuvo, a highly motivated and versatile Full Stack JavaScript Engineer with a passion for web and mobile application development. My professional journey has been driven by a commitment to technical excellence and a thirst for continuous learning. I'm currently based in Vancouver, BC, and I'm eager to contribute my skills and experience to innovative projects and collaborative teams.</p>      
+            <p className='text-2xl py-5 leading-8 text-white mx-w-xl'>I am a highly motivated and versatile Full Stack JavaScript Engineer with a passion for web and mobile application development. My professional journey has been driven by a commitment to technical excellence and a thirst for continuous learning. I'm currently based in Vancouver, BC, and I'm eager to contribute my skills and experience to innovative projects and collaborative teams.</p>      
           
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 md:text-5xl'>
