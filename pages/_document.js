@@ -37,7 +37,7 @@ export default function Document() {
       <script id = "vwoCode" strategy="beforeInteractive">
       
       window._vwo_code || (function() {
-      var account_id=871942,
+      let account_id=871942,
       version=2.1,
       settings_tolerance=2000,
       hide_element='body',
