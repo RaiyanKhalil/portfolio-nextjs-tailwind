@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
         <Head>
           {/* Define the dataLayer variable */}
-          <Script
+          <script
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -15,13 +15,13 @@ export default function Document() {
           />
 
           {/* Add the Google Tag Manager script */}
-          <Script
+          <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           />
 
           {/* Define the gtag function */}
-          <Script
+          <script
             dangerouslySetInnerHTML={{
               __html: `
                 function gtag(){dataLayer.push(arguments);}
