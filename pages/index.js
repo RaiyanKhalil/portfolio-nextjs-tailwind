@@ -248,7 +248,16 @@ export default function Home() {
             <input type="text" placeholder="Your Name" className="p-3 rounded bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-myCoral transition" />
             <input type="email" placeholder="Your Email" className="p-3 rounded bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-myCoral transition" />
             <textarea placeholder="Your Message" className="p-3 rounded bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-myCoral transition" rows={5} />
-            <button type="submit" className="bg-myCoral text-white px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform duration-300">Send Message</button>
+            <button type="submit" className="bg-myCoral text-white px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform duration-300"
+              onClick={() => {
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'contact_submit', {
+                    event_category: 'Button',
+                    event_label: 'Contact Form Submit',
+                  });
+                }
+              }}
+            >Send Message</button>
           </form>
         </section>
 
